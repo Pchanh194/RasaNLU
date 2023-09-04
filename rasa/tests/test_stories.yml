@@ -1,0 +1,47 @@
+stories:
+
+- story: Test Sentence Beginning Extraction
+  steps:
+  - intent: inform
+    entities:
+      beginning: "Once upon a time"
+    user: "Once upon a time, there was a small, curious field mouse named Pip."
+  - action: action_extract_beginning
+  - bot: "The beginning of the sentence is: 'Once upon a time'"
+
+- story: Test Beginning Extraction with Comma
+  steps:
+  - intent: inform
+    entities:
+      beginning: "Every night"
+    user: "Every night, Pip would scurry out and look up at the twinkling stars."
+  - action: action_extract_beginning
+  - bot: "The beginning of the sentence is: 'Every night'"
+
+- story: Test Beginning Extraction with Long Sentence
+  steps:
+  - intent: inform
+    entities:
+      beginning: "Despite this"
+    user: "Despite this, Pip was eager to try, but he knew the moon was far away."
+  - action: action_extract_beginning
+  - bot: "The beginning of the sentence is: 'Despite this'"
+
+- story: Test Beginning Extraction with Verb
+  steps:
+  - intent: inform
+    entities:
+      beginning: "Driving"
+    user: "Driving in heavy traffic can be so stressful"
+  - action: action_extract_beginning
+  - bot: "The beginning of the sentence is: 'Driving'"
+
+- story: Test Beginning Extraction with Name Entities
+  steps:
+  - intent: inform
+    entities:
+      beginning: "Margaret L."
+    user: "Margaret L. is an inspiring teenager with a unique story.."
+  - action: action_extract_beginning
+  - bot: "The beginning of the sentence is: 'Margaret L.'"
+
