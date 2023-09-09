@@ -1,92 +1,86 @@
 version: "3.1"
 
 nlu:
-- intent: inform
+- intent: name entities
   examples: |
-    - [Once upon a time](beginning), there was a small, curious field mouse named Pip.
     - [Pip](beginning) lived in a burrow in a vast, open field.
-    - [Every night](beginning), Pip would scurry out and look up at the twinkling stars and the radiant moon.
-    - [One day](beginning), Pip decided that he was going to find a way to reach the moon.
-    - [He](beginning) knew he was small, but he believed he could make it if he found the right help.
-    - [The next day](beginning), Pip came across Charlie, the rabbit, hopping around in the field.
     - [Charlie](beginning) was certainly taller than Pip, so he asked, "Charlie, you're so tall! How far are you from the moon?"
     - [Charlie](beginning) laughed, "Well, Pip, I may be taller than you, but I'm nowhere near tall enough to reach the moon!"
-    - [Unfazed](beginning), Pip asked Charlie if he could try standing on his head to gauge the height.
-    - [Chuckling](beginning), Charlie bent down, allowing Pip to scamper onto his fluffy ears.
-    - [Yet](beginning), even standing on top of Charlie's head, the moon still seemed so far away.
-    - [Feeling slightly disappointed but not defeated](beginning), Pip thanked Charlie and continued his journey.
-    - [Next](beginning), he met Oliver, the deer.
-    - [With his large antlers reaching high into the sky](beginning), Oliver was certainly taller than Charlie.
-    - [Oliver, Pip asked](beginning), "how far is your reach to the moon?"
-    - [Although](beginning) my antlers are tall," Oliver replied, "they're not nearly tall enough to touch the moon."
-    - [Eager to try](beginning), Pip asked if he could stand on Oliver's antlers.
-    - [Carefully](beginning), Oliver bent down, and Pip, with a bit of effort, climbed atop his antlers.
-    - [But still](beginning), the moon remained out of Pip's reach.
-    - [Determined](beginning), Pip moved on and stumbled upon Gary, the giraffe.
-    - [With his long neck and high reach](beginning), Gary was the tallest animal Pip had ever seen.
-    - [Gary,](beginning) said Pip, panting slightly, "how far are you from the moon?"
+    - [Oliver](beginning), Pip asked, "how far is your reach to the moon?"
+    - [Gary](beginning), said Pip, panting slightly, "how far are you from the moon?"
     - [Gary](beginning) smiled down at Pip, "I may be the tallest here, Pip, but even I cannot reach the moon."
-    - [Despite this](beginning), Pip was eager to try.
-    - [With Gary's help](beginning), Pip climbed up and sat on top of Gary's head.
-    - [The view was breathtaking](beginning), but yet again, the moon was far from his reach.
     - [Pip](beginning) was starting to feel disheartened, but he was not ready to give up.
-    - [That night](beginning), he sat in the field, looking at the moon, wondering how he could get there.
-    - [Just then](beginning), an old wise owl named Otto flew down beside him.
     - [Pip](beginning), why the long face?, he asked.
-    - [I](beginning) want to touch the moon, Pip confessed.
-    - [But no matter how high I go](beginning),  it's still so far away.
     - [Otto](beginning) chuckled softly.
-    - [Dear Pip](beginning), the moon is not something you can reach by height.
     - [Pip](beginning) was silent for a while, looking thoughtfully at the moon.
-    - [Then](beginning), he smiled, realizing that he had been closer to the moon than he thought.
-    - [From that night forward](beginning), Pip knew that even though he couldn't physically touch the moon, he could feel its magic.
-    - [His dream of reaching the moon](beginning) had taken him on a great adventure, where he'd met new friends and seen things from heights he'd never imagined.
     - [Pip](beginning) may have been a small field mouse, but his dreams were as big and bright as the moon itself.
-    - [Suddenly a loud noise](beginning) startled Pip.
-    - [Now](beginning) Pip understood the value of perseverance.
-    - [However](beginning) Pip didn't lose hope.
-    - [In the distance](beginning) a light flickered.
-    - [Then Pip](beginning) decided to take another route.
-    - [Quietly](beginning) Pip approached the sleeping fox.
+
+
+- intent: Temporal Beginnings
+  examples: |
+    - [Once upon a time](beginning), there was a small, curious field mouse named Pip.
+    - [Every night](beginning), Pip would scurry out and look up at the twinkling stars and the radiant moon.
+    - [One day](beginning), Pip decided that he was going to find a way to reach the moon.
+    - [The next day](beginning), Pip came across Charlie, the rabbit, hopping around in the field.
+    - [That night](beginning), he sat in the field, looking at the moon, wondering how he could get there.
     - [Today](beginning) is a new day thought Pip.
-    - [While running](beginning) Pip tripped over a rock.
-    - [Behind the bush](beginning) something rustled.
-    - [With that Pip](beginning) turned around and went back home.
-    - [On the horizon](beginning) the sun began to rise.
-    - [Later](beginning) Pip met other animals who joined him on his quest.
-    - [Soon after](beginning) Pip realized he was not alone.
-    - [After a while](beginning) Pip grew tired.
-    - [Fortunately](beginning) Pip found a shortcut.
-    - [Before long](beginning) Pip reached a river.
-    - [Despite his small size](beginning) Pip felt powerful.
     - [Early in the morning](beginning) Pip set out for another adventure.
-    - [Next](beginning) Pip planned to climb the hill.
-    - [During the rain](beginning) Pip took shelter under a leaf.
-    - [Unlike other mice](beginning) Pip had an adventurous spirit.
-    - [Even though Pip](beginning) had doubts, he pushed forward.
-    - [For Pip](beginning) every day was a new opportunity.
-    - [According to the map](beginning) the treasure was close.
-    - [Once Pip](beginning) took the first step, the journey became easier.
-    - [Thus](beginning) began Pip's incredible journey.
-    - [Although it was dark](beginning) Pip continued walking.
-    - [Because Pip](beginning) believed in himself, he overcame many obstacles.
     - [At dawn](beginning) Pip felt more optimistic.
-    - [Until now](beginning) Pip had never ventured this far.
-    - [Still](beginning) Pip continued his relentless pursuit.
-    - [With each step](beginning) Pip grew more confident.
-    - [Inside the cave](beginning) Pip found a hidden world.
-    - [Through the meadows](beginning) Pip scampered quickly.
     - [As the night fell](beginning) Pip felt a sense of calm.
     - [Since childhood](beginning) Pip dreamed of grand adventures.
+
+- intent: Character-Action Beginnings
+  examples: |
+    - [He](beginning) knew he was small, but he believed he could make it if he found the right help.
+    - [Quietly](beginning) Pip approached the sleeping fox.
+    - [While running](beginning) Pip tripped over a rock.
+    - [With that Pip](beginning) turned around and went back home.
+    - [With determination](beginning) Pip conquered his fears.
+    - [Quickly](beginning) Pip made his way through the dense forest.
+
+- intent: Contrast Beginnings
+  examples: |
+    - [Yet](beginning), even standing on top of Charlie's head, the moon still seemed so far away.
+    - [But still](beginning), the moon remained out of Pip's reach.
+    - [Although](beginning) my antlers are tall," Oliver replied, "they're not nearly tall enough to touch the moon."
+    - [However](beginning) Pip didn't lose hope.
+    - [Even though Pip](beginning) had doubts, he pushed forward.
+    - [Although it was dark](beginning) Pip continued walking.
+
+- intent: Setting Descriptions
+  examples: |
+    - [In the distance](beginning) a light flickered.
+    - [Behind the bush](beginning) something rustled.
+    - [On the horizon](beginning) the sun began to rise.
+    - [Inside the cave](beginning) Pip found a hidden world.
+    - [Through the meadows](beginning) Pip scampered quickly.
     - [Near the pond](beginning) Pip saw his reflection and smiled.
-    - [Beyond the hill](beginning) lay unknown challenges.
     - [Beside the tree](beginning) Pip found a hidden cache.
-    - [Without warning](beginning) a bird swooped down.
-    - [Following the stream](beginning) Pip found his way home.
     - [Here](beginning) Pip felt safe and secure.
+
+- intent: Transition Beginnings
+  examples: |
+    - [Next](beginning), he met Oliver, the deer.
+    - [Then Pip](beginning) decided to take another route.
+    - [Later](beginning) Pip met other animals who joined him on his quest.
+    - [Once Pip](beginning) took the first step, the journey became easier.
+    - [Thus](beginning) began Pip's incredible journey.
+    - [Once more](beginning) Pip braved the unknown.
+
+- intent: Other Beginnings
+  examples: |
+    - [Eager to try](beginning), Pip asked if he could stand on Oliver's antlers.
+    - [Determined](beginning), Pip moved on and stumbled upon Gary, the giraffe.
+    - [For Pip](beginning) every day was a new opportunity.
+    - [Unfazed](beginning), Pip asked Charlie if he could try standing on his head to gauge the height.
+    - [Chuckling](beginning), Charlie bent down, allowing Pip to scamper onto his fluffy ears.
+    - [Carefully](beginning), Oliver bent down, and Pip, with a bit of effort, climbed atop his antlers.
+    - [Just then](beginning), an old wise owl named Otto flew down beside him.
+    - [I](beginning) want to touch the moon, Pip confessed.
+    - [Dear Pip](beginning), the moon is not something you can reach by height.
+    - [Then](beginning), he smiled, realizing that he had been closer to the moon than he thought.
+    - [Now](beginning) Pip understood the value of perseverance.
     - [When Pip](beginning) looked up he saw a beautiful rainbow.
     - [Inside](beginning) Pip felt a mix of excitement and fear.
-    - [Once more](beginning) Pip braved the unknown.
-    - [With determination](beginning) Pip conquered his fears.
-    - [Just as Pip](beginning) was about to give up, he found what he was looking for.
-    - [Quickly](beginning) Pip made his way through the dense forest.
+    - [Suddenly a loud noise](beginning) startled Pip.
+    - [Without warning](beginning) a bird swooped down.
